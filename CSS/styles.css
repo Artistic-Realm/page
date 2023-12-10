@@ -241,21 +241,10 @@ body { background:#FFFFFF ; }
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+}
+
+@media(prefers-color-scheme:dark)
+{
+	body { background:#FFFFFF ; }
 	
 }
