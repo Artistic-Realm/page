@@ -155,75 +155,75 @@ body { background:#FFFFFF ; }
 	
 	/*Header*/
 	
-.banner1{height:150px ;}	
+.banner1{height:250px ; }	
 	
-.picture{width:80px ; height:80px ; border-radius:50%  ; background-image:url("../Images/passport.jpg") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ;   animation:fadein 1s ease-in-out ;  float:left ; margin-top:35px ; }
+.picture{width:100px ; height:100px ; border-radius:50%  ; background-image:url("../Images/passport.jpg") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ;   animation:fadein 1s ease-in-out ;  float:left ; margin-left:10px ;  margin-top:75px ;  }
 	
-.quote1{ width:150px ; height:80px ; font-family:RobotoSlabRegular ; font-size:16px ; color: #CD50FD ; float:right ; text-align:center ; margin-top:40px ; }
+.quote1{ width:200px ; height:90px ; font-family:RobotoSlabRegular ; font-size:20px ; color:#EB91FF ; float:right ; text-align:center ; margin-top:85px ;  }
 	
-.wraper1{width:250px ; height:150px ; margin:auto  ;   }
+.wraper1{width:320px ; height:250px ; margin:auto  ;  }
 	
 	
 	/*Menu bar*/
 
 
-.menubar{ height:30px ; background:#CD50FD ; position:relative  ; text-decoration:none ; }
+.menubar{ height:40px ; background:#EB91FF ; position:relative  ; text-decoration:none ; }
 
-.wraper2{ height:30px ; width:300px ;  background:none ; margin:auto ; border:none ;   }
+.wraper2{ height:40px ; width:400px ;  background:none ; margin:auto ; border:none ;   }
 
-.skills{ height:30px ; width:90px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:14px  ; text-decoration:none ; background-color:#CD50FD  ; border:none ; float:left ; transition: height 0.3s ease ; }
+.skills{ height:40px ; width:130px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#EB91FF  ; border:none ; float:left ; transition: height 0.3s ease ; }
 
-.portfolio{ height:30px ; width:90px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:14px  ; text-decoration:none ; background-color:#CD50FD ; border:none ; float:left ; transition: height 0.3s ease ; }
+.portfolio{ height:40px ; width:120px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#EB91FF ; border:none ; float:left ; transition: height 0.3s ease ; }
 
-.contact{ height:30px ; width:120px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:14px ; text-decoration:none ; background-color:#CD50FD ; border:none ; float:left ; transition: height 0.3s ease ; }
+.contact{ height:40px ; width:150px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px ; text-decoration:none ; background-color:#EB91FF ; border:none ; float:left ; transition: height 0.3s ease ; }
 
 	
-.skills:hover{width:90px ; height:40px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000  }
+.skills:hover{width:130px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000  }
 
-.portfolio:hover{width:90px ; height:40px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
+.portfolio:hover{width:120px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
 
-.contact:hover{width:120px ; height:40px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
+.contact:hover{width:150px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
 	
 	
 	/*About Me*/
 
 
-.textbox1{width:300px ; height:100px ; font-family:JosefinSansSemibold ; text-align: center ; color:#1D0FC0 ; margin:auto ; margin-top:20px ; font-size:14px ;  }
+.textbox1{width:380px ; height:150px ; font-family:JosefinSansSemibold ; text-align:justify  ; color:#1D0FC0 ; margin:auto ; margin-top:40px ; font-size:20px ;  }
 	
-.cv{width:170px ; height:50px ; margin:auto ; margin-top:20px ;   }
+.cv{width:220px ; height:50px ; margin:auto ; margin-top:20px ;   }
 
-.download{Width:170px ; height:50px ; font-family:RobotoSlabRegular ; color:#000000 ; font-size:14px ; background-color:#5950FF ; border-radius:50px ; box-shadow:0px 10px 10px 2px rgba(0,0,0,0.4) ; margin:auto ;  border:none ;   }	
+.download{Width:220px ; height:50px ; font-family:RobotoSlabRegular ; color:#000000 ; font-size:20px ; background-color:#5950FF ; border-radius:50px ; box-shadow:0px 10px 10px 2px rgba(0,0,0,0.4) ; margin:auto ;  border:none ;   }	
 	
 	
 	
 	/*Skills Section*/
 
 
-.banner2{width:250px ; height:50px ; background-color:#5900A9 ; float:left  ; margin-top:30px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
+.banner2{width:250px ; height:60px ; background-color:#5900A9 ; float:left  ; margin-top:40px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
 
-.textbox2{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:18px ; color:#FFFFFF ;  }
+.textbox2{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ;  }
 
-.skillset{width:250px ; height:50px ; margin:auto ; margin-top:20px ; border:2px solid #000000 ; border-radius:10px ;  }
+.skillset{width:290px ; height:200px ; margin:auto ; margin-top:20px ; border:2px solid #000000 ; border-radius:10px ;  }
 
-.logo1{width:30px ; height:30px ; background:url("../Images/logo/adobe-after-effects-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:10px ; margin-top:10px ;  }
+.logo1{width:70px ; height:70px ; background:url("../Images/logo/adobe-after-effects-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
 
-.logo2{width:30px ; height:30px ; background:url("../Images/logo/adobe-premiere-pro-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:10px ; margin-top:10px ;  }
+.logo2{width:70px ; height:70px ; background:url("../Images/logo/adobe-premiere-pro-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
 
-.logo3{width:30px ; height:30px ; background:url("../Images/logo/adobe-photoshop-logo-2021.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:10px ; margin-top:10px ;  }
+.logo3{width:70px ; height:70px ; background:url("../Images/logo/adobe-photoshop-logo-2021.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
 
-.logo4{width:30px ; height:30px ; background:url("../Images/logo/adobe-Illustrator-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:10px ; margin-top:10px ;  }
+.logo4{width:70px ; height:70px ; background:url("../Images/logo/adobe-Illustrator-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
 
-.logo5{width:30px ; height:30px ; background:url("../Images/logo/3ds-max-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:10px ; margin-top:10px ;  }
+.logo5{width:70px ; height:70px ; background:url("../Images/logo/3ds-max-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
 
-.logo6{width:30px ; height:30px ; background:url("../Images/logo/autodesk-maya-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:10px ; margin-top:10px ;  }
+.logo6{width:70px ; height:70px ; background:url("../Images/logo/autodesk-maya-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
 	
 	
 	/*Portfolio Section*/
 	
 
-.banner3{width:250px ; height:50px ; background-color:#5900A9 ; float:right  ; margin-top:30px ; border-top-left-radius:50px ; border-bottom-left-radius:50px ;  }
+.banner3{width:250px ; height:60px ; background-color:#5900A9 ; float:right  ; margin-top:40px ; border-top-left-radius:50px ; border-bottom-left-radius:50px ;  }
 
-.textbox3{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:left  ; margin-left:20px ; font-family:Courierprime ; font-size:18px ; color:#FFFFFF ; }
+.textbox3{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:left  ; margin-left:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ; }
 	
 	
 		/*Car Ad*/
@@ -246,17 +246,17 @@ body { background:#FFFFFF ; }
 	/*Contact Info*/
 
 
-.banner4{width:250px ; height:50px ; background-color:#5900A9 ; float:left  ; margin-top:30px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
+.banner4{width:250px ; height:60px ; background-color:#5900A9 ; float:left  ; margin-top:40px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
 
-.textbox4{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:18px ; color:#FFFFFF ;   }
+.textbox4{width:180px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ;   }
 
-.textbox5{width:300px ; height:50px ; font-family:JosefinSansSemibold ; font-size:14px ; color:#1D0FC0 ; margin:auto ; margin-top:20px ;  }
+.textbox5{width:380px ; height:60px ; font-family:JosefinSansSemibold ; font-size:20px ; color:#1D0FC0 ; margin:auto ; margin-top:20px ; }
 	
 	
 	/*Footer*/
 
 
-.footer{width:100% ;  height:80px ; background-color:#CD50FD ; margin-top:20px  ;  }
+.footer{width:100% ;  height:80px ; background-color:#EB91FF ; margin-top:20px  ;  }
 	
 	
 	
