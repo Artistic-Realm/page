@@ -169,18 +169,18 @@ body { background:#FFFFFF ; }
 
 .menubar{ height:40px ; background:#EB91FF ; position:relative  ; text-decoration:none ; }
 
-.wraper2{ height:40px ; width:400px ;  background:none ; margin:auto ; border:none ;   }
+.wraper2{ height:40px ; width:340px ;  background:none ; margin:auto ; border:none ;   }
 
-.skills{ height:40px ; width:130px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#EB91FF  ; border:none ; float:left ; transition: height 0.3s ease ; }
+.skills{ height:40px ; width:100px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#EB91FF  ; border:none ; float:left ; transition: height 0.3s ease ; }
 
-.portfolio{ height:40px ; width:120px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#EB91FF ; border:none ; float:left ; transition: height 0.3s ease ; }
+.portfolio{ height:40px ; width:90px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#EB91FF ; border:none ; float:left ; transition: height 0.3s ease ; }
 
 .contact{ height:40px ; width:150px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px ; text-decoration:none ; background-color:#EB91FF ; border:none ; float:left ; transition: height 0.3s ease ; }
 
 	
-.skills:hover{width:130px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000  }
+.skills:hover{width:100px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000  }
 
-.portfolio:hover{width:120px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
+.portfolio:hover{width:90px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
 
 .contact:hover{width:150px ; height:60px ; background:#8450FD ; border-bottom-left-radius:5px ; border-bottom-right-radius:5px ; border:1px solid #000000 }
 	
@@ -188,9 +188,9 @@ body { background:#FFFFFF ; }
 	/*About Me*/
 
 
-.textbox1{width:380px ; height:150px ; font-family:JosefinSansSemibold ; text-align:justify  ; color:#1D0FC0 ; margin:auto ; margin-top:40px ; font-size:20px ;  }
+.textbox1{width:300px ; height:180px ; font-family:JosefinSansSemibold ; text-align:justify  ; color:#1D0FC0 ; margin:auto ; margin-top:40px ; font-size:20px ;   }
 	
-.cv{width:220px ; height:50px ; margin:auto ; margin-top:20px ;   }
+.cv{width:220px ; height:50px ; margin:auto ; margin-top:50px ;   }
 
 .download{Width:220px ; height:50px ; font-family:RobotoSlabRegular ; color:#000000 ; font-size:20px ; background-color:#5950FF ; border-radius:50px ; box-shadow:0px 10px 10px 2px rgba(0,0,0,0.4) ; margin:auto ;  border:none ;   }	
 	
@@ -250,7 +250,7 @@ body { background:#FFFFFF ; }
 
 .textbox4{width:180px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ;   }
 
-.textbox5{width:380px ; height:60px ; font-family:JosefinSansSemibold ; font-size:20px ; color:#1D0FC0 ; margin:auto ; margin-top:20px ; }
+.textbox5{width:300px ; height:60px ; font-family:JosefinSansSemibold ; font-size:20px ; color:#1D0FC0 ; margin:auto ; margin-top:18px ; }
 	
 	
 	/*Footer*/
