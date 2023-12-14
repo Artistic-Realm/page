@@ -250,7 +250,11 @@ body { background:#FFFFFF ; }
 
 .textbox4{width:180px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ;   }
 
+<<<<<<< HEAD
 .textbox5{width:300px ; height:80px ; font-family:JosefinSansSemibold ; font-size:20px ; color:#1D0FC0 ; margin:auto ; margin-top:18px ;  }
+=======
+.textbox5{width:300px ; height:80px ; font-family:JosefinSansSemibold ; font-size:20px ; color:#1D0FC0 ; margin:auto ; margin-top:18px ; }
+>>>>>>> 48ada6e1f383a15485f11db38e71d2986676244f
 	
 	
 	/*Footer*/
