@@ -61,7 +61,7 @@ body { background:#FFFFFF ; }
 	/*About Me*/
 
 
-.textbox1{width:920px ; height:130px ; font-family:JosefinSansSemibold ; text-align: center ; color:#1D0FC0 ; margin:auto ; margin-top:50px ; font-size:28px ;  }
+.textbox1{width:920px ; height:150px ; font-family:JosefinSansSemibold ; text-align: center ; color:#1D0FC0 ; margin:auto ; margin-top:50px ; font-size:28px ;  }
 
 .cv{width:250px ; height:70px ; margin:auto ; margin-top:20px ;   }
 
@@ -111,6 +111,20 @@ body { background:#FFFFFF ; }
 .cell1{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
 
 .cell2{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+
+	/*Watch Ad*/
+
+
+.wraper4{width:800px ; height:650px ; margin:auto ; margin-top:50px ; background-color: #3AC249 ; border-radius:30px ;  }
+
+.container2{width:640px ; height:360px ; overflow:hidden ; margin:auto ; padding-top:50px ;  }
+
+.grid2{width:640px ; height:170px ; margin:auto ; margin-top:20px ; background-color:#7CFB78 ;  }
+
+.cell3{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell4{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
 
 
 	/*Contact Info*/
@@ -188,7 +202,7 @@ body { background:#FFFFFF ; }
 	/*About Me*/
 
 
-.textbox1{width:300px ; height:180px ; font-family:JosefinSansSemibold ; text-align:justify  ; color:#1D0FC0 ; margin:auto ; margin-top:40px ; font-size:20px ;   }
+.textbox1{width:300px ; height:200px ; font-family:JosefinSansSemibold ; text-align:justify  ; color:#1D0FC0 ; margin:auto ; margin-top:40px ; font-size:20px ;   }
 	
 .cv{width:220px ; height:50px ; margin:auto ; margin-top:50px ;   }
 
@@ -226,7 +240,21 @@ body { background:#FFFFFF ; }
 .textbox3{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:left  ; margin-left:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ; }
 	
 	
-		/*Car Ad*/
+	/*Watch Ad*/
+
+
+.wraper4{width:300px ; height:274px ; margin:auto ; margin-top:30px ; background-color:#3AC249 ; border-radius:10px ;  }
+
+.container2{width:256px ; height:144px ; overflow:hidden ; margin:auto ; padding-top:20px ;  }
+
+.grid2{width:256px ; height:70px ; margin:auto ; margin-top:20px ; background-color:#7CFB78 ;  }
+
+.cell3{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell4{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+	
+	
+	/*Car Ad*/
 
 
 .wraper3{width:300px ; height:274px ; margin:auto ; margin-top:30px ; background-color: #CB4648 ; border-radius:10px ;  }
