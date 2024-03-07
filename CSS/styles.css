@@ -1,0 +1,423 @@
+a{text-decoration:none ;}
+
+.clr{clear:both}
+
+html{scroll-behavior:smooth ; scroll-padding:var(--scroll-padding,5rem) ; }
+
+
+@font-face
+{
+	font-family:RobotoSlabRegular ;
+	src:url("../font/RobotoSlabRegular-w1GE3.ttf") ;	
+}
+
+@font-face
+{
+	font-family:JosefinSansSemibold ;
+	src:url("../font/JosefinSansSemibold-p7Z0v.ttf") ;	
+}
+
+@font-face
+{
+	font-family:Courierprime ;
+	src:url("../font/Courierprime-1OVL.ttf") ;	
+}
+	
+
+	/*Header*/
+
+
+body { background:#FFFFFF ; }
+
+.banner1{ height:300px ; background:#222222 ; }
+
+.picture{width:200px ; height:200px ; border-radius:50%  ; background-image:url("../Images/passport.jpg") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ;   animation:fadein 1s ease-in-out ;  float:left ; margin-top:50px ; }
+
+.quote1{ width:450px ; height:80px ; font-family:RobotoSlabRegular ; font-size:30px ; color: #E31E7D ; float:right ; text-align:center ; margin-top:110px ;   }
+.wraper1{width:650px ; height:300px ; margin:auto  ;  } 
+	
+	
+	/*Menu bar*/
+
+
+.menubar{ height:50px ; background:#E31E7D ; position:relative  ; text-decoration:none ; }
+
+.wraper2{ height:50px ; width:650px ;  background:none ; margin:auto ; border:none ;   }
+
+.skills{ height:50px ; width:200px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:24px  ; text-decoration:none ; background-color:#E31E7D  ; border:none ; float:left ; transition: height 0.3s ease ; }
+
+.portfolio{ height:50px ; width:200px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:24px  ; text-decoration:none ; background-color:#E31E7D ; border:none ; float:left ; transition: height 0.3s ease ; }
+
+.contact{ height:50px ; width:250px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:24px ; text-decoration:none ; background-color:#E31E7D ; border:none ; float:left ; transition: height 0.3s ease ; }
+
+	
+.skills:hover{width:200px ; height:80px ; background:#8450FD ; border-bottom-left-radius:10px ; border-bottom-right-radius:10px ; border:2px solid #000000  }
+
+.portfolio:hover{width:200px ; height:80px ; background:#8450FD ; border-bottom-left-radius:10px ; border-bottom-right-radius:10px ; border:2px solid #000000 }
+
+.contact:hover{width:250px ; height:80px ; background:#8450FD ; border-bottom-left-radius:10px ; border-bottom-right-radius:10px ; border:2px solid #000000 }
+
+
+	/*About Me*/
+
+
+.textbox1{width:920px ; height:150px ; font-family:JosefinSansSemibold ; text-align: center ; color:#1D0FC0 ; margin:auto ; margin-top:50px ; font-size:28px ;  }
+
+.cv{width:250px ; height:70px ; margin:auto ; margin-top:20px ;   }
+
+.download{Width:250px ; height:70px ; font-family:RobotoSlabRegular ; color:#000000 ; font-size:24px ; background-color:#5950FF ; border-radius:30px ; box-shadow:0px 10px 10px 2px rgba(0,0,0,0.4) ; margin:auto ; border:none ;    }
+
+
+	/*Skills Section*/
+
+
+.banner2{width:750px ; height:80px ; background-color:#5900A9 ; float:left  ; margin-top:100px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
+
+.textbox2{width:250px ; height:40px ; text-align: center ; margin-top:20px ; float:right  ; margin-right:100px ; font-family:Courierprime ; font-size:40px ; color:#FFFFFF ; }
+
+.skillset{width:800px ; height:150px ; margin:auto ; margin-top:50px ; border:4px solid #000000 ; border-radius:30px ;  }
+
+.logo1{width:100px ; height:100px ; background:url("../Images/logo/adobe-after-effects-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:25px ; margin-top:25px ;  }
+
+.logo2{width:100px ; height:100px ; background:url("../Images/logo/adobe-premiere-pro-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:25px ; margin-top:25px ;  }
+
+.logo3{width:100px ; height:100px ; background:url("../Images/logo/adobe-photoshop-logo-2021.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:25px ; margin-top:25px ;  }
+
+.logo4{width:100px ; height:100px ; background:url("../Images/logo/adobe-Illustrator-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:25px ; margin-top:25px ;  }
+
+.logo5{width:100px ; height:100px ; background:url("../Images/logo/3ds-max-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:25px ; margin-top:25px ;  }
+
+.logo6{width:100px ; height:100px ; background:url("../Images/logo/autodesk-maya-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:25px ; margin-top:25px ;  }
+
+
+	/*Portfolio Section*/
+
+.banner3{width:750px ; height:80px ; background-color:#5900A9 ; float:right  ; margin-top:100px ; border-top-left-radius:50px ; border-bottom-left-radius:50px ;  }
+
+.textbox3{width:250px ; height:40px ; text-align: center ; margin-top:20px ; float:left  ; margin-left:100px ; font-family:Courierprime ; font-size:40px ; color:#FFFFFF ; }
+
+
+	/*Car Ad*/
+
+
+.name2{width:100% ; height:50px ; text-align:center ; font-family:Courierprime ; font-size:40px ; color:#000000 ; margin-top:50px ;  }
+
+.wraper3{width:800px ; height:650px ; margin:auto ; margin-top:50px ; background-color: #CB4648 ; border-radius:30px ;  }
+
+.container1{width:640px ; height:360px ; overflow:hidden ; margin:auto ; padding-top:50px ;  }
+
+.fit1{width:100% ; height:100% ; object-fit:cover ; }
+
+.grid1{width:640px ; height:170px ; margin:auto ; margin-top:20px ; background-color:#E46B6D ;  }
+
+.cell1{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell2{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+
+	/*Watch Ad*/
+
+
+.name1{width:100% ; height:50px ; text-align:center ; font-family:Courierprime ; font-size:40px ; color:#000000 ; margin-top:50px ;  }
+
+.wraper4{width:800px ; height:650px ; margin:auto ; margin-top:50px ; background-color: #3AC249 ; border-radius:30px ;  }
+
+.container2{width:640px ; height:360px ; overflow:hidden ; margin:auto ; padding-top:50px ;  }
+
+.grid2{width:640px ; height:170px ; margin:auto ; margin-top:20px ; background-color:#7CFB78 ;  }
+
+.cell3{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell4{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell5{width:150px ; height:150px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+
+	/*Flyer Design*/
+
+
+.name4{width:100% ; height:50px ; text-align:center ; font-family:Courierprime ; font-size:40px ; color:#000000 ; margin-top:50px ;  }
+
+.wraper6{width:800px ; height:300px ; margin:auto ; margin-top:50px ; background-color:#EFAE60 ; border-radius:30px ;  }
+	
+.grid3{width:660px ; height:300px ; margin:auto ;  }
+
+.cell6{width:180px ; height:240px ; float:left ; margin-left:30px ; margin-top:30px ;  }
+
+.cell7{width:180px ; height:240px ; float:left ; margin-left:30px ; margin-top:30px ;  }
+	
+.cell8{width:180px ; height:240px ; float:left ; margin-left:30px ; margin-top:30px ;  }
+
+
+	/*Magazine*/
+
+.name3{width:100% ; height:50px ; text-align:center ; font-family:Courierprime ; font-size:40px ; color:#000000 ; margin-top:50px ;  }
+
+.wraper5{width:800px ; height:650px ; margin:auto ; margin-top:50px ; background-color:#00C69C ; border-radius:30px ; }
+
+.container3{width:700px ; height:550px ; margin:auto ; padding-top:50px ;  }
+iframe{width:100% ; height:100% ;  }
+
+
+	/*Poster Designs*/
+
+
+.name5{width:100% ; height:50px ; text-align:center ; font-family:Courierprime ; font-size:40px ; color:#000000 ; margin-top:50px ;  }
+
+.wraper7{width:800px ; height:300px ; margin:auto ; margin-top:50px ; background-color:#153480 ; border-radius:30px ;  }
+
+.grid4{width:660px ; height:300px ; margin:auto ;  }
+
+.cell9{width:180px ; height:240px ; float:left ; margin-left:30px ; margin-top:30px ;  }
+
+.cell10{width:180px ; height:240px ; float:left ; margin-left:30px ; margin-top:30px ;  }
+
+.cell11{width:180px ; height:240px ; float:left ; margin-left:30px ; margin-top:30px ;  }
+
+
+	/*Logo Designs*/
+
+
+.name6{width:100% ; height:50px ; text-align:center ; font-family:Courierprime ; font-size:40px ; color:#000000 ; margin-top:50px ;  }
+
+.wraper8{width:800px ; height:1100px ; margin:auto ; margin-top:50px ; background-color:#7F38AD ; border-radius:30px ;  }
+
+.grid5{width:525px ; height:1100px ; margin:auto ; }
+
+.cell12{width:525px ; height:300px ; float:left ; margin-top:50px ;  }
+
+.cell13{width:525px ; height:300px ; float:left ; margin-top:50px ;  }
+
+.cell14{width:525px ; height:300px ; float:left ; margin-top:50px ;  }
+
+
+	/*Contact Info*/
+
+
+.banner4{width:750px ; height:80px ; background-color:#5900A9 ; float:left  ; margin-top:100px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
+
+.textbox4{width:300px ; height:40px ; text-align: center ; margin-top:20px ; float:right  ; margin-right:100px ; font-family:Courierprime ; font-size:40px ; color:#FFFFFF ;  }
+
+.textbox5{width:800px ; height:160px ; font-family:JosefinSansSemibold ; font-size:28px ; color:#1D0FC0 ; margin:auto ; margin-top:50px ; }
+
+
+	/*Footer*/
+
+
+.footer{width:100% ;  height:200px ; background-color:#E31E7D ; margin-top:50px  ;  }
+
+
+@keyframes fadein{
+		from{
+			opacity: 0 ; 
+		}
+		to{
+			opacity:1 ;
+		}
+					}
+	
+
+
+
+
+/* Define styles for smartphones */
+
+
+
+
+@media (max-width: 767px) 
+{
+	
+	
+	html{scroll-behavior:smooth ; }
+	
+	/*Header*/
+	
+.banner1{height:250px ; }	
+	
+.picture{width:100px ; height:100px ; border-radius:50%  ; background-image:url("../Images/passport.jpg") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ;   animation:fadein 1s ease-in-out ;  float:left ; margin-left:10px ;  margin-top:75px ;  }
+	
+.quote1{ width:200px ; height:90px ; font-family:RobotoSlabRegular ; font-size:20px ; color:#E31E7D ; float:right ; text-align:center ; margin-top:85px ;  }
+	
+.wraper1{width:320px ; height:250px ; margin:auto  ;  }
+	
+	
+	/*Menu bar*/
+
+
+.menubar{ height:40px ; background:#E31E7D ; position:relative  ; text-decoration:none ; }
+
+.wraper2{ height:40px ; width:340px ;  background:none ; margin:auto ; border:none ;   }
+
+.skills{ height:40px ; width:100px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#E31E7D  ; border:none ; float:left ; transition: height 0.3s ease ; }
+
+.portfolio{ height:40px ; width:90px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px  ; text-decoration:none ; background-color:#E31E7D ; border:none ; float:left ; transition: height 0.3s ease ; }
+
+.contact{ height:40px ; width:150px ; transition-timing-function:ease ; font-family:RobotoSlabRegular ; font-size:18px ; text-decoration:none ; background-color:#E31E7D ; border:none ; float:left ; transition: height 0.3s ease ; }
+
+	
+.skills:hover{width:100px ; height:40px ; background:#8450FD ; border-radius:initial ; border:none ; }
+
+.portfolio:hover{width:90px ; height:40px ; background:#8450FD ; border-radius:initial ; border:none ; }
+
+.contact:hover{width:150px ; height:40px ; background:#8450FD ; border-radius:initial ; border:none ; }
+	
+	
+	/*About Me*/
+
+
+.textbox1{width:300px ; height:200px ; font-family:JosefinSansSemibold ; text-align:justify  ; color:#1D0FC0 ; margin:auto ; margin-top:40px ; font-size:20px ;   }
+	
+.cv{width:220px ; height:50px ; margin:auto ; margin-top:50px ;   }
+
+.download{Width:220px ; height:50px ; font-family:RobotoSlabRegular ; color:#000000 ; font-size:20px ; background-color:#5950FF ; border-radius:50px ; box-shadow:0px 10px 10px 2px rgba(0,0,0,0.4) ; margin:auto ;  border:none ;   }	
+	
+	
+	
+	/*Skills Section*/
+
+
+.banner2{width:250px ; height:60px ; background-color:#5900A9 ; float:left  ; margin-top:40px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
+
+.textbox2{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ;  }
+
+.skillset{width:290px ; height:200px ; margin:auto ; margin-top:20px ; border:2px solid #000000 ; border-radius:10px ;  }
+
+.logo1{width:70px ; height:70px ; background:url("../Images/logo/adobe-after-effects-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.logo2{width:70px ; height:70px ; background:url("../Images/logo/adobe-premiere-pro-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.logo3{width:70px ; height:70px ; background:url("../Images/logo/adobe-photoshop-logo-2021.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.logo4{width:70px ; height:70px ; background:url("../Images/logo/adobe-Illustrator-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.logo5{width:70px ; height:70px ; background:url("../Images/logo/3ds-max-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.logo6{width:70px ; height:70px ; background:url("../Images/logo/autodesk-maya-logo.png") ; background-size:contain ; background-position:center ; background-repeat:no-repeat ; float:left ; margin-left:20px ; margin-top:20px ;  }
+	
+	
+	/*Portfolio Section*/
+	
+
+.banner3{width:250px ; height:60px ; background-color:#5900A9 ; float:right  ; margin-top:40px ; border-top-left-radius:50px ; border-bottom-left-radius:50px ;  }
+
+.textbox3{width:150px ; height:30px ; text-align: center ; margin-top:15px ; float:left  ; margin-left:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ; }
+	
+	
+	/*Watch Ad*/
+	
+
+.name1{width:100% ; height:30px ; text-align:center ; font-family:Courierprime ; font-size:22px ; color:#000000 ; margin-top:30px ;  }
+
+.wraper4{width:300px ; height:274px ; margin:auto ; margin-top:30px ; background-color:#3AC249 ; border-radius:10px ;  }
+
+.container2{width:256px ; height:144px ; overflow:hidden ; margin:auto ; padding-top:20px ;  }
+
+.grid2{width:256px ; height:70px ; margin:auto ; margin-top:20px ; background-color:#7CFB78 ;  }
+
+.cell3{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell4{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+	
+.cell5{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+	
+	
+	/*Car Ad*/
+	
+	
+.name2{width:100% ; height:30px ; text-align:center ; font-family:Courierprime ; font-size:22px ; color:#000000 ; margin-top:30px ;  }
+
+
+.wraper3{width:300px ; height:274px ; margin:auto ; margin-top:30px ; background-color: #CB4648 ; border-radius:10px ;  }
+
+.container1{width:256px ; height:144px ; overflow:hidden ; margin:auto ; padding-top:20px ;  }
+
+.fit1{width:100% ; height:100% ; object-fit:cover ; }
+
+.grid1{width:256px ; height:70px ; margin:auto ; margin-top:20px ; background-color:#E46B6D ;  }
+
+.cell1{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+
+.cell2{width:50px ; height:50px ; float:left ; margin-left:10px ; margin-top:10px ;  }
+	
+	
+	/*Flyer Designs*/
+	
+	
+.name4{width:100% ; height:30px ; text-align:center ; font-family:Courierprime ; font-size:22px ; color:#000000 ; margin-top:30px ;  }
+	
+.wraper6{width:300px ; height:120px ; margin:auto ; margin-top:30px ; background-color: #EFAE60 ; border-radius:10px ;  }
+	
+.grid3{width:260px ; height:120px ; margin:auto ;  }
+
+.cell6{width:60px ; height:80px ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.cell7{width:60px ; height:80px ; float:left ; margin-left:20px ; margin-top:20px ;  }
+	
+.cell8{width:60px ; height:80px ; float:left ; margin-left:20px ; margin-top:20px ;  }
+	
+	
+	/*Magazine*/
+	
+	
+.name3{width:100% ; height:30px ; text-align:center ; font-family:Courierprime ; font-size:22px ; color:#000000 ; margin-top:30px ;  }
+
+
+.wraper5{width:300px ; height:274px ; margin:auto ; margin-top:50px ; background-color:#00C69C ; border-radius:10px ; }
+	
+.container3{width:260px ; height:234px ; margin:auto ; padding-top:20px ;  }
+	
+iframe{width:100% ; height:100% ;  }
+	
+	
+	/*Poster Designs*/
+	
+	
+.name5{width:100% ; height:30px ; text-align:center ; font-family:Courierprime ; font-size:22px ; color:#000000 ; margin-top:30px ;  }
+	
+.wraper7{width:300px ; height:120px ; margin:auto ; margin-top:30px ; background-color: #153480 ; border-radius:10px ;  }
+	
+.grid4{width:260px ; height:120px ; margin:auto ;  }
+
+.cell9{width:60px ; height:80px ; float:left ; margin-left:20px ; margin-top:20px ;  }
+
+.cell10{width:60px ; height:80px ; float:left ; margin-left:20px ; margin-top:20px ;  }
+	
+.cell11{width:60px ; height:80px ; float:left ; margin-left:20px ; margin-top:20px ;  }
+	
+	
+	/*Logo Designs*/
+	
+	
+.name6{width:100% ; height:30px ; text-align:center ; font-family:Courierprime ; font-size:22px ; color:#000000 ; margin-top:30px ;  }
+	
+.wraper8{width:300px ; height:440px ; margin:auto ; margin-top:30px ; background-color: #7F38AD ; border-radius:10px ;  }
+	
+.grid5{width:210px ; height:440px ; margin:auto ;  }
+
+.cell12{width:210px ; height:120px ; float:left ; margin-top:20px ;  }
+
+.cell13{width:210px ; height:120px ; float:left ; margin-top:20px ;  }
+	
+.cell14{width:210px ; height:120px ; float:left ; margin-top:20px ;  }
+	
+	
+	/*Contact Info*/
+
+
+.banner4{width:250px ; height:60px ; background-color:#5900A9 ; float:left  ; margin-top:40px ; border-top-right-radius:50px ; border-bottom-right-radius:50px ;  }
+
+.textbox4{width:180px ; height:30px ; text-align: center ; margin-top:15px ; float:right  ; margin-right:20px ; font-family:Courierprime ; font-size:22px ; color:#FFFFFF ;   }
+
+.textbox5{width:300px ; height:100px ; font-family:JosefinSansSemibold ; font-size:20px ; color:#1D0FC0 ; margin:auto ; margin-top:18px ; }
+	
+	
+	/*Footer*/
+
+
+.footer{width:100% ;  height:80px ; background-color:#E31E7D ; margin-top:20px  ;  }
+	
+	
+	
+	
+}
