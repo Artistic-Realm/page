@@ -1,8 +1,8 @@
 a{text-decoration:none ;}
 
-img{filter:none;}
+.clr{clear:both ; }
 
-.clr{clear:both}
+img{filter:none ; }
 
 html{scroll-behavior:smooth ; scroll-padding:var(--scroll-padding,5rem) ; }
 
